@@ -7,12 +7,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          mkdir output
+      - run:  sed -n -e '/## 主な経験職種/,/## その他/p' ./test.txt >out_test.txt | sed -i -e '$d' out_test.txt
       - uses: docker://ghcr.io/44smkn/pandoc/ja:0.1.1
         with:
           args: README.md --from=markdown --to=docx --reference-doc=reference.docx -o output/resume.docx
       - uses: actions/upload-artifact@master
         with:
           name: output
-          path: output/resume.docx
+          path: resume.docx
