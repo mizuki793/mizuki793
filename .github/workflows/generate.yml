@@ -7,10 +7,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run:  sed -n -e '/## 経歴/,/## その他/p' ./README.md >./out_readme.md | sed -i -e '$d' ./out_readme.md
+      - run:  mkdir output && sed -n -e '/## 経歴/,/## その他/p' ./README.md >./out_readme.md | sed -i -e '$d' ./out_readme.md
       - uses: docker://ghcr.io/44smkn/pandoc/ja:0.1.1
         with:
-          args: out_readme.md --from=markdown --to=docx --reference-doc=reference.docx -o ./resume.docx
+          args: out_readme.md --from=markdown --to=docx --reference-doc=reference.docx -o output/resume.docx
       - uses: actions/upload-artifact@master
         with:
-          path: ./resume.docx
+          name: output
+          path: output/resume.docx
