@@ -1,24 +1,25 @@
 # Profile
 [twitter](https://twitter.com/fumin20210907)  
 [ブログ](https://fallakiakino-793.hatenablog.com/)  
-[Github](https://github.com/mizuki793)  
+[github](https://github.com/mizuki793)  
 
-## 主な経験職種
-* 保守・運用・開発など
-	
-## 経歴
+## 経歴  
 
+### 活かせる経験・知識・技術等
+* 保守・運用・開発経験
+
+### 職務経歴
 * (2018/10～2019/1) WEBサービスのテスト業務
   	* 要員:10人程度
   	* 役割:メンバー
   	* 業務内容
 		* 某保険会社Webサービステスト業務(CT工程)に従事
-	* 言語：Java
+	* 言語：Java  
 
 * (2019/02~2019/05) 通信関係のWebサービス
   	* チーム要員10名程度
   	* 役割:メンバー
-  	* 業務内容  	 	
+  	* 業務内容   
 		* web修正(画面の修正)
 	* 言語:Java
 	* フレームワーク:Struts2  
@@ -47,7 +48,17 @@
 		* お菓子メーカーの業務支援ツールの画面作成
 	* 使用言語:Java,JavaScript
 	* フレームワーク:SpringBoot  
-### その他
+
+### 資格
+* (2015/08)Microsoft Office Specialist2007 Excel 取得
+* (2018/03)Microsoft Office Specialist2013 Word・PowerPoint 取得
+* (2021/06)AWSクラウドプラクティショナー 取得
+* (2021/08)AWSソリューションアーキテクト - アソシエイト 取得
+* (2021/10)Azure Fundamentals(az-900) 取得
+* (2022/01)OSS-DB Silver Ver.2.0 取得
+
+## その他
+### 自己学習
 * Python
   	* paizaやseleniumを私物で作るときに少し触りました。
  	* Flaskでcrudのapiを作りました。  
@@ -65,13 +76,6 @@
 	 → https://mymarkdown-8b3d5.web.app/
 	* AWS(資格試験)
 
-## 資格
-* (2015/08)Microsoft Office Specialist2007 Excel 取得
-* (2018/03)Microsoft Office Specialist2013 Word・PowerPoint 取得
-* (2021/06)AWSクラウドプラクティショナー 取得
-* (2021/08)AWSソリューションアーキテクト - アソシエイト 取得
-* (2021/10)Azure Fundamentals(az-900) 取得
-* (2022/01)OSS-DB Silver Ver.2.0 取得
 
 ## 自己紹介
 * 新たに学ぶことが好きです。
