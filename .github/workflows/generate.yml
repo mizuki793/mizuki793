@@ -8,11 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          mkdir output
+          mkdir output && sed -n -e '/## 経歴/,/## その他/p' ./test.txt >tmp_readme.md | sed -i -e '$d' tmp_readme.md
       - uses: docker://ghcr.io/44smkn/pandoc/ja:0.1.1
         with:
-          args: README.md --from=markdown --to=docx --reference-doc=reference.docx -o output/resume.docx
-      - uses: actions/upload-artifact@master
+          args: tmp_readme.md --from=markdown --to=docx --reference-doc=reference.docx -o output/resume.docx
+      - uses: actions/upload-artifact@main
         with:
           name: output
-          path: output/resume.docx
+          path: out_put/out_resume.docx
