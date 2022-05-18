@@ -24,7 +24,7 @@
   	* 業務内容   
 		* web修正(画面の修正)
 	* 言語:Java
-	* フレームワーク:Struts2  
+	* FW:Struts2  
 <br>
 
 * (2019/06~2019/09) 保険系のWebサービス
@@ -41,7 +41,7 @@
 		* 追加改修
 		* 追加部分の基本設計から結合テストまで
 	* 使用言語:Java,JavaScript
-	* フレームワーク:JSF  
+	* FW:JSF  
   
 * (2020/04~2022/4) お菓子メーカーのWebサービス
 	* チーム要員4人程度
@@ -50,7 +50,7 @@
   	* 業務内容
 		* お菓子メーカーの業務支援ツールの画面作成
 	* 使用言語:Java,JavaScript
-	* フレームワーク:SpringBoot  
+	* FW:SpringBoot  
 
 ### 資格
 * (2015/08)Microsoft Office Specialist2007 Excel 取得
